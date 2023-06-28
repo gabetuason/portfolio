@@ -1,4 +1,4 @@
-# myportfolio_react
+# myportfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -22,7 +22,7 @@ To install dependencies run the console command line `npm i`. The `package.json`
 
 ## Usage
 
-Deployed Link: https://gabetuason.github.io/myportfolio_react/  
+Deployed Link: https://gabetuason.github.io/portfolio/ 
 
 You can also git clone the repository: `git@github.com:gabetuason/myportfolio_react.git`
 
