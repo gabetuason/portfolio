@@ -1,0 +1,27 @@
+section#resumeContainer.resume-section {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+section#resumeContainer .btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+section#resumeContainer .glow-button {
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 40px rgba(0, 0, 255, 0.5);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    }
+}

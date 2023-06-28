@@ -1,0 +1,99 @@
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    /* Add top margin for spacing */
+    margin-bottom: 3rem;
+    /* Add bottom margin for spacing */
+}
+
+#projectContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    /* Add bottom margin for spacing */
+}
+
+figure {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    filter: brightness(40%);
+    /* Darken the image */
+    margin: 1rem;
+    transition: filter 0.3s ease;
+    /* Add transition for smooth animation */
+}
+
+figure:hover {
+    filter: brightness(100%);
+    /* Lighten the image on hover */
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background);
+    color: var(--font-color);
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.button-container button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.note {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 970px) {
+    figure {
+        width: 100%;
+    }
+
+    #projectContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #projectContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

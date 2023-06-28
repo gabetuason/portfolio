@@ -1,0 +1,46 @@
+.header {
+    background: linear-gradient(to bottom, #332c2e, #36393f, rgb(0, 0, 0)) !important;
+    color: white !important;
+    padding: 150px !important;
+}
+
+.glow {
+    display: inline-block;
+    animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+    0% {
+        text-shadow: 0 0 10px lightblue;
+    }
+
+    50% {
+        text-shadow: 0 0 40px lightblue;
+    }
+
+    100% {
+        text-shadow: 0 0 10px lightblue;
+    }
+}
+
+.highlight {
+    background-color: rgb(18, 4, 43) !important;
+    padding: 20px !important;
+    margin-bottom: 50px !important;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+
+    /* Adjust the breakpoint as needed */
+    .container {
+        flex-direction: row;
+    }
+}

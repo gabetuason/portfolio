@@ -1,0 +1,25 @@
+.heroText {
+    color: white;
+    font-size: 2rem;
+    padding-top: 120px;
+    padding-Bottom: 50px;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    /* Add margin to the left and right */
+}
+
+.bannerImg {
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .description {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+        /* Add padding to the left and right */
+    }
+}

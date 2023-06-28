@@ -1,0 +1,36 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --font-color: #ebebeb;
+  --background: #032847;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #332c2e, #160946, rgb(0, 0, 0)) no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  /* Add this line */
+  color: var(--font-color) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}

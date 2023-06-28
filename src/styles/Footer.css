@@ -1,0 +1,18 @@
+.footer {
+    background: linear-gradient(to bottom, #332c2e, #36393f, rgb(0, 0, 0));
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footerLink {
+    font-size: 20px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footerLink:hover {
+    font-size: 24px;
+    color: purple;
+    margin-bottom: 4px;
+}
